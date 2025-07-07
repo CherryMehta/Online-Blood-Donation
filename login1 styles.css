@@ -1,0 +1,140 @@
+header {
+    background-color: #b80000; /* Red */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #b80000, #cc4d4d);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #FFF;
+}
+
+.login-content {
+    flex: 1;
+    padding: 20px;
+}
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.login-content {
+    flex: 1;
+    padding: 20px;
+text-align: center;
+}
+.login-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.login-image img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+.container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #c0392b;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #c0392b;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #e67e22;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #FFFBD3;
+        }
+
+
+
+
+ h2 {
+            color: #c0392b;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .donor-btn {
+background-color: #c0392b;
+            color: #fff;
+        }
+        .recipient-btn {
+            background-color:#e67e22;
+            color: #fff;
+        }
+
+.fact {
+            background: #FFFBD3;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .fact::before {
+            content: "\2764"; /* Heart symbol */
+            font-size: 20px;
+            color: #c0392b;
+            margin-right: 10px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #b80000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+              

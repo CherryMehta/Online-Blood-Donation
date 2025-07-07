@@ -1,0 +1,102 @@
+header {
+    background-color: #b80000; /* Red */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #b80000, #cc4d4d);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  padding: 30px;
+}
+
+
+.container {
+  display: flex;
+  
+  justify-content: right;
+  align-items: right;
+  height: 100vh;
+}
+
+.form-container {
+.transbox {
+  
+  background-color: rgba(255, 251, 211, 0.2); /* cream background with 80% opacity */
+  padding: 60px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* optional shadow for a soft effect */
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #87CEFA;
+font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #87CEFA;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+select {
+  cursor: pointer;
+}
+
+button.submit-btn {
+  background-color: #87CEFA; /* red button */
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.submit-btn:hover {
+  background-color: #340002; /* Darker red on hover */
+}
+
+.form1-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.form1-image img {
+    width: 30%;
+    border-radius: 10px;
+}
